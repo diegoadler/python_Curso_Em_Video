@@ -1,0 +1,19 @@
+# criando um vetor vazio de tamanho 5
+vetor = [0] * 5
+
+# preenchendo o vetor com valores digitados pelo usuário
+for i in range(5):
+    vetor[i] = int(input("Digite um valor para a posição {}: ".format(i)))
+
+# exibindo o vetor preenchido
+print("Vetor preenchido:", vetor)
+
+# encontrando o valor máximo do vetor
+maximo = max(vetor)
+
+# encontrando o valor mínimo do vetor
+minimo = min(vetor)
+
+# exibindo os resultados
+print("O valor máximo é:", maximo)
+print("O valor mínimo é:", minimo)
